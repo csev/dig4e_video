@@ -55,7 +55,7 @@
             "href" : "https://www.coursera.org/learn/html/lecture/Ilm91/01-01-welcome-to-introduction-to-html5"
         }
     ],
-    "lti" : [
+    "xlti" : [
         {
         "title" : "Quiz: HTML/Web Basics",
         "launch" : "tsugi/tool/gift/?quiz=01.txt",
@@ -104,7 +104,7 @@
             "href" : "lectures/02_html5/02_02-html_tags_and_syntax.pdf"
         }
     ],
-    "lti" : [
+    "xlti" : [
         {
         "title" : "Quiz: Tags",
         "launch" : "tsugi/tool/gift/",
@@ -153,7 +153,7 @@
             "href" : "https://www.coursera.org/learn/html/lecture/WqvSN/03-02a-wave"
         }
     ],
-    "lti" : [
+    "xlti" : [
         {
         "title" : "Quiz: Hosting and Validation",
         "launch" : "tsugi/tool/gift/",
@@ -219,7 +219,7 @@
             "href" : "lectures/01_css3/01_02-cascading_style_sheets.pdf"
         }
     ],
-    "lti" : [
+    "xlti" : [
         {
         "title" : "Quiz: Styling Syntax and Theory",
         "launch" : "tsugi/tool/gift/",
@@ -269,7 +269,7 @@
             "href" : "pages/css3/09_together.php"
         }
     ],
-    "lti" : [
+    "xlti" : [
         {
         "title" : "Quiz: Review (OPTIONAL)",
         "launch" : "tsugi/tool/gift/",
@@ -327,7 +327,7 @@
             "href" : "https://www.coursera.org/learn/introcss/lecture/9rzOu/03-03-transforms"
         }
     ],
-    "lti" : [
+    "xlti" : [
         {
         "title" : "Quiz: Final Quiz",
         "launch" : "tsugi/tool/gift/",
@@ -384,7 +384,7 @@
             "href" : "https://www.coursera.org/learn/introcss/lecture/sVTwE/04-04-creating-navigation-menus-2"
         }
     ],
-    "lti" : [
+    "xlti" : [
         {
         "title" : "Peer-graded Assignment",
         "launch" : "tsugi/tool/peer-grade/",
@@ -433,7 +433,7 @@
             "href" : "https://www.coursera.org/learn/javascript/lecture/EYX66/introduction"
         }
     ],
-    "lti" : [
+    "xlti" : [
         {
         "title" : "Quiz: Week 1",
         "launch" : "tsugi/tool/gift/",
@@ -478,7 +478,7 @@
             "href" : "lectures/02_js/02_01-functions.pdf"
         }
     ],
-    "lti" : [
+    "xlti" : [
         {
         "title" : "Peer-graded Assignment",
         "launch" : "tsugi/tool/peer-grade/",
@@ -532,7 +532,7 @@
             "href" : "lectures/03_js/03_01-js_arrays.pdf"
         }
     ],
-    "lti" : [
+    "xlti" : [
         {
         "title" : "Quiz: JavaScript Review",
         "launch" : "tsugi/tool/gift/",
@@ -593,7 +593,7 @@
             "href" : "https://www.coursera.org/learn/javascript/lecture/i4227/comparing-two-inputs"
         }
     ],
-    "lti" : [
+    "xlti" : [
         {
         "title" : "Peer-graded Assignment",
         "launch" : "tsugi/tool/peer-grade/",
@@ -642,7 +642,7 @@
             "href" : "lectures/01_rd/01_01-intro_to_rd.pdf"
         }
     ],
-    "lti" : [
+    "xlti" : [
         {
         "title" : "Quiz: Basic Concepts in Responsive Design Approaches",
         "launch" : "tsugi/tool/peer-grade/",
@@ -691,7 +691,7 @@
             "href" : "lectures/02_rd/02_03-wireframes.pdf"
         }
     ],
-    "lti" : [
+    "xlti" : [
         {
         "title" : "Peer-graded Assignment",
         "launch" : "tsugi/tool/peer-grade/",
@@ -749,7 +749,7 @@
             "href" : "lectures/03_rd/03_03-bootstrap_breakpoints.pdf"
         }
     ],
-    "lti" : [
+    "xlti" : [
         {
         "title" : "Peer-graded Assignment",
         "launch" : "tsugi/tool/peer-grade/",

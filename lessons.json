@@ -58,7 +58,7 @@
     "lti" : [
         {
         "title" : "Quiz: HTML/Web Basics",
-        "launch" : "tsugi/tool/gift/",
+        "launch" : "tsugi/tool/gift/?quiz=01.txt",
         "resource_link_id" : "html_01_quiz"
         }
     ]

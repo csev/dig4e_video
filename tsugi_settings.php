@@ -42,6 +42,8 @@ $CFG->install_folder = $CFG->dirroot.'/../mod';
 
 $CFG->lessons = $CFG->dirroot.'/../lessons.json';
 
+$CFG->giftquizzes = $CFG->dirroot.'/../assess/quiz';
+
 $CFG->tdiscus = $CFG->wwwroot . '/tool/tdiscus/';
 
 // Google Sign-In: set $CFG->google_client_id and $CFG->google_client_secret in tsugi/config.php.

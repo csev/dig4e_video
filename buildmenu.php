@@ -13,7 +13,6 @@ function buildMenu() {
     }
 
     if ( isset($_SESSION['id']) ) {
-        $set->addLeft('Quizzes', $R.'assignments');
         $submenu = new \Tsugi\UI\Menu();
         $submenu->addLink('Profile', $R.'profile');
         if ( isset($CFG->google_map_api_key) ) {

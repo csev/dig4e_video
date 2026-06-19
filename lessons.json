@@ -3,7 +3,6 @@
     "description" : "Welcome to Dig4E-Video.  We have designed this online course to help you learn about the present state of standards and best practices for creating archival-quality digital surrogates of analog video resources.",
     "count": true,
     "required_modules": [
-        "https://github.com/tsugitools/peer-grade"
     ],
     "headers": [
         "<link href=\"{apphome}/css/lessons.css\" rel=\"stylesheet\">",
@@ -59,7 +58,7 @@
     "lti" : [
         {
         "title" : "Quiz: HTML/Web Basics",
-        "launch" : "mod/gift/",
+        "launch" : "tsugi/tool/gift/",
         "resource_link_id" : "html_01_quiz"
         }
     ]
@@ -108,7 +107,7 @@
     "lti" : [
         {
         "title" : "Quiz: Tags",
-        "launch" : "mod/gift/",
+        "launch" : "tsugi/tool/gift/",
         "resource_link_id" : "html_02_quiz"
         }
     ]
@@ -157,12 +156,12 @@
     "lti" : [
         {
         "title" : "Quiz: Hosting and Validation",
-        "launch" : "mod/gift/",
+        "launch" : "tsugi/tool/gift/",
         "resource_link_id" : "html_03_quiz"
         },
         {
         "title" : "Quiz: Final Project",
-        "launch" : "mod/gift/",
+        "launch" : "tsugi/tool/gift/",
         "resource_link_id" : "html_04_quiz"
         }
     ]
@@ -223,12 +222,12 @@
     "lti" : [
         {
         "title" : "Quiz: Styling Syntax and Theory",
-        "launch" : "mod/gift/",
+        "launch" : "tsugi/tool/gift/",
         "resource_link_id" : "css_01_quiz"
         },
         {
         "title" : "Peer-graded Assignment: Your First Styled Site",
-        "launch" : "mod/peer-grade/",
+        "launch" : "tsugi/tool/peer-grade/",
         "resource_link_id" : "css_02_quiz"
         }
     ]
@@ -273,12 +272,12 @@
     "lti" : [
         {
         "title" : "Quiz: Review (OPTIONAL)",
-        "launch" : "mod/gift/",
+        "launch" : "tsugi/tool/gift/",
         "resource_link_id" : "css_03_quiz"
         },
         {
         "title" : "Quiz: Advanced Selectors",
-        "launch" : "mod/gift/",
+        "launch" : "tsugi/tool/gift/",
         "resource_link_id" : "css_04_quiz"
         }
     ]
@@ -331,7 +330,7 @@
     "lti" : [
         {
         "title" : "Quiz: Final Quiz",
-        "launch" : "mod/gift/",
+        "launch" : "tsugi/tool/gift/",
         "resource_link_id" : "css_05_quiz"
         }
     ]
@@ -388,7 +387,7 @@
     "lti" : [
         {
         "title" : "Peer-graded Assignment",
-        "launch" : "mod/peer-grade/",
+        "launch" : "tsugi/tool/peer-grade/",
         "resource_link_id" : "css_06_quiz"
         }
     ]
@@ -437,7 +436,7 @@
     "lti" : [
         {
         "title" : "Quiz: Week 1",
-        "launch" : "mod/gift/",
+        "launch" : "tsugi/tool/gift/",
         "resource_link_id" : "js_01_quiz"
         }
     ]
@@ -482,12 +481,12 @@
     "lti" : [
         {
         "title" : "Peer-graded Assignment",
-        "launch" : "mod/peer-grade/",
+        "launch" : "tsugi/tool/peer-grade/",
         "resource_link_id" : "js_02_quiz"
         },
         {
         "title" : "Quiz: Week 2",
-        "launch" : "mod/gift/",
+        "launch" : "tsugi/tool/gift/",
         "resource_link_id" : "js_03_quiz"
         }
     ]
@@ -536,7 +535,7 @@
     "lti" : [
         {
         "title" : "Quiz: JavaScript Review",
-        "launch" : "mod/gift/",
+        "launch" : "tsugi/tool/gift/",
         "resource_link_id" : "js_04_quiz"
         }
     ]
@@ -597,7 +596,7 @@
     "lti" : [
         {
         "title" : "Peer-graded Assignment",
-        "launch" : "mod/peer-grade/",
+        "launch" : "tsugi/tool/peer-grade/",
         "resource_link_id" : "js_05_quiz"
         }
     ]
@@ -646,7 +645,7 @@
     "lti" : [
         {
         "title" : "Quiz: Basic Concepts in Responsive Design Approaches",
-        "launch" : "mod/peer-grade/",
+        "launch" : "tsugi/tool/peer-grade/",
         "resource_link_id" : "rd_01_quiz"
         }
     ]
@@ -695,12 +694,12 @@
     "lti" : [
         {
         "title" : "Peer-graded Assignment",
-        "launch" : "mod/peer-grade/",
+        "launch" : "tsugi/tool/peer-grade/",
         "resource_link_id" : "rd_02_quiz"
         },
         {
         "title" : "Quiz: Media Queries and Breakpoints",
-        "launch" : "mod/peer-grade/",
+        "launch" : "tsugi/tool/peer-grade/",
         "resource_link_id" : "rd_03_quiz"
         }
     ]
@@ -753,12 +752,12 @@
     "lti" : [
         {
         "title" : "Peer-graded Assignment",
-        "launch" : "mod/peer-grade/",
+        "launch" : "tsugi/tool/peer-grade/",
         "resource_link_id" : "rd_04_quiz"
         },
         {
         "title" : "Quiz: Bootstrap",
-        "launch" : "mod/peer-grade/",
+        "launch" : "tsugi/tool/peer-grade/",
         "resource_link_id" : "rd_05_quiz"
         }
     ]

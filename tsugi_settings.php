@@ -22,9 +22,11 @@ if ( isset($CFG->apphome) ) {
 }
 $CFG->setExtension('hubhome', $hubhome);
 
-// Theme like the Dig4E Video site
+// Theme: Michigan blue top nav; site accent for lessons, buttons, and body chrome
+$dig4e_menu_blue = '#00274C';
 $CFG->theme = array(
-    "primary" => "#575294", // nav background, splash background, buttons, text of tool menu
+    "primary" => "#575294", // site accent — lessons, buttons, links
+    "primary-menu" => $dig4e_menu_blue, // top navigation bar (all Dig4E sites)
     "secondary" => "#EEEEEE", // nav text and nav item border color, background of tool menu
     "text" => "#111111", // standard copy color
     "text-light" => "#5E5E5E", // lighter text for elements like "small"

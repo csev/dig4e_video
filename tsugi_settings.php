@@ -9,6 +9,19 @@
 $CFG->servicename = 'DIG4E-V';
 $CFG->servicedesc = 'OER materials for digitizing video';
 
+// Hub site (dig4e-www) — local sibling checkout vs production
+$hubhome = 'https://www.dig4e.com';
+if ( isset($CFG->apphome) ) {
+    $host = parse_url($CFG->apphome, PHP_URL_HOST);
+    if ( in_array($host, array('localhost', '127.0.0.1'), true) ) {
+        $parts = parse_url($CFG->apphome);
+        $scheme = $parts['scheme'] ?? 'http';
+        $port = isset($parts['port']) ? ':' . $parts['port'] : '';
+        $hubhome = $scheme . '://' . $host . $port . '/dig4e-www';
+    }
+}
+$CFG->setExtension('hubhome', $hubhome);
+
 // Theme like the Dig4E Video site
 $CFG->theme = array(
     "primary" => "#575294", // nav background, splash background, buttons, text of tool menu

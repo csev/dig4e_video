@@ -44,6 +44,8 @@ $CFG->lessons = $CFG->dirroot.'/../lessons.json';
 
 $CFG->tdiscus = $CFG->wwwroot . '/tool/tdiscus/';
 
+// Google Sign-In: set $CFG->google_client_id and $CFG->google_client_secret in tsugi/config.php.
+// OAuth consent screen: privacy URL = apphome/privacy, terms URL = apphome/service.
 $CFG->google_login_redirect = $CFG->apphome . "/login";
 
 $CFG->sessionlifetime = 18*60*60;  // 18 hours

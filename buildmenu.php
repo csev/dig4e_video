@@ -23,10 +23,6 @@ function buildMenu() {
         if ( file_exists(__DIR__.'/materials.php') ) {
             $submenu->addLink('Materials', $R.'materials');
         }
-        $submenu->addLink('Rate this course', 'https://www.class-central.com/mooc/7362/web-applications-for-everybody');
-        if ( file_exists(__DIR__.'/privacy.php') ) {
-            $submenu->addLink('Privacy', $R.'privacy');
-        }
         if ( isset($CFG->providekeys) && $CFG->providekeys ) {
             $submenu->addLink('LMS Integration', $T . 'settings');
         }
@@ -50,7 +46,7 @@ function buildMenu() {
         $set->addRight('Login', $R.'login');
     }
 
-    $set->addRight('Instructor', 'https://www.si.umich.edu/people/paul-conway');
+    $set->addRight('Instructor', 'https://www.linkedin.com/in/paul-conway-b033149/');
 
     return $set;
 }
